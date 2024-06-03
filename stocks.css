@@ -1,0 +1,75 @@
+body { 
+	margin: 0; 
+	padding: 0; 
+	background-color: #f0f0f0; 
+	display: flex; 
+	justify-content: left; 
+	align-items: center; 
+	height: 100vh; 
+	margin: 50px;
+	position: relative;
+	left: 70px;
+} 
+
+.coupon { 
+	background-color: #fff; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+	border-radius: 5px; 
+	padding: 20px; 
+	max-width: 300px; 
+	text-align: center; 
+	margin-left: 50px;
+
+} 
+
+.coupon img { 
+	max-width: 100%; 
+	height: auto; 
+	border-radius: 5px; 
+} 
+
+.coupon h2 { 
+	color: #008930; 
+	margin-top: 10px; 
+} 
+
+.coupon p { 
+	color: #777; 
+	line-height: 1.5; 
+	margin-top: 10px; 
+} 
+
+.coupon .code { 
+	font-size: 24px; 
+	color: green; 
+	margin-bottom: 10px; 
+} 
+
+.coupon .expiration { 
+	color: #e80c0c; 
+	font-size: 14px; 
+} 
+.email{
+	font-size: large;
+	text-align: center;
+}
+.closedPromotions{
+	position: relative;
+	top: 280px;
+	right: 40%;
+}
+.button {
+	padding: 10px;
+	background-color: rgb(220, 220, 220);
+	border: 1px solid black;
+}
+.button:hover{
+	cursor: pointer;
+	background-color: rgb(192, 192, 192);
+}
+.stocksUp{
+	position: relative;
+	bottom: 400px;
+	right: 50%;
+	color: rgb(112, 128, 144);
+}
